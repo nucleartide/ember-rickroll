@@ -3,19 +3,21 @@ import layout from './template'
 import SC from 'soundcloud'
 
 const { htmlSafe } = Ember.String
+const RICKROLL_URL = 'https://soundcloud.com/catsystemcorp/nggyu-3'
+const IFRAME_SRC = `https://w.soundcloud.com/player?url=${RICKROLL_URL}`
 
 export default Ember.Component.extend({
   layout,
   tagName: 'iframe',
 
   attributeBindings: ['src', 'style'],
-  src: 'https://w.soundcloud.com/player?url=https://soundcloud.com/catsystemcorp/nggyu-3',
+  src: IFRAME_SRC,
   style: htmlSafe('display: none'),
 
   didInsertElement() {
     this._super(...arguments)
     this.widget = SC.Widget(this.$()[0])
-    this.widget.load('https://soundcloud.com/catsystemcorp/nggyu-3', {
+    this.widget.load(RICKROLL_URL, {
       auto_play: true
     })
   },
