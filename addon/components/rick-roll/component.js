@@ -1,11 +1,8 @@
-
 import Ember from 'ember'
 import layout from './template'
 import SC from 'soundcloud'
 
-const {
-  String: { htmlSafe }
-} = Ember
+const { htmlSafe } = Ember.String
 
 export default Ember.Component.extend({
   layout,
