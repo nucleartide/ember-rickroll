@@ -6,7 +6,7 @@
 ![](assets/rick.gif)
 
 An Ember component for surreptitiously playing Rick Astley's "Never Gonna Give
-You Up".
+You Up". See the [demo][1].
 
 ## Installation
 
@@ -23,7 +23,7 @@ Put this in your template:
 ```
 
 Rickrolling occurs immediately after the component is invoked. You may want to
-control your rickrolling with a boolean flag:
+control your trolling with a boolean flag:
 
 ```hbs
 {{#if shouldStartTrolling}}
@@ -40,4 +40,6 @@ control your rickrolling with a boolean flag:
 
 > GitHub [@nucleartide](https://github.com/nucleartide) &nbsp;&middot;&nbsp;
 > Twitter [@nucleartide](https://twitter.com/nucleartide)
+
+[1]: https://nucleartide.github.io/ember-rickroll
 
