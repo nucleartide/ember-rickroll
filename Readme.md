@@ -31,6 +31,10 @@ control your trolling with a boolean flag:
 {{/if}}
 ```
 
+## Credit
+
+Song is by catsystemcorp, please check out their [Soundcloud][2]. :)
+
 ## Badges
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -42,4 +46,5 @@ control your trolling with a boolean flag:
 > Twitter [@nucleartide](https://twitter.com/nucleartide)
 
 [1]: https://nucleartide.github.io/ember-rickroll
+[2]: https://soundcloud.com/catsystemcorp
 
