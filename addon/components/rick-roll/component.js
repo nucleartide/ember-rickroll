@@ -9,11 +9,10 @@ const IFRAME_SRC = `https://w.soundcloud.com/player?url=${RICKROLL_URL}`
 
 export default Ember.Component.extend({
   tagName: 'iframe',
-  layout,
-
   attributeBindings: ['src', 'style'],
   src: IFRAME_SRC,
   style: htmlSafe('display: none'),
+  layout,
 
   didInsertElement() {
     this._super(...arguments)
