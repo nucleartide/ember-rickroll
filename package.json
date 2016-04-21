@@ -1,7 +1,7 @@
 {
   "name": "ember-rickroll",
   "version": "1.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "Never gonna give you up, never gonna let you down...",
   "directories": {
     "doc": "doc",
     "test": "tests"
