@@ -4,7 +4,7 @@ import layout from './template'
 import SC from 'soundcloud'
 
 const { htmlSafe } = Ember.String
-const RICKROLL_URL = 'https://soundcloud.com/catsystemcorp/nggyu-3'
+const RICKROLL_URL = 'https://soundcloud.com/gail-sanderson-randle/barry-white-never-never-gonna'
 const IFRAME_SRC = `https://w.soundcloud.com/player?url=${RICKROLL_URL}`
 
 export default Ember.Component.extend({
