@@ -45,6 +45,6 @@ Song is by catsystemcorp, please check out their [Soundcloud][2]. :)
 > GitHub [@nucleartide](https://github.com/nucleartide) &nbsp;&middot;&nbsp;
 > Twitter [@nucleartide](https://twitter.com/nucleartide)
 
-[1]: https://nucleartide.github.io/ember-rickroll
+[1]: http://nucleartide.github.io/ember-rickroll
 [2]: https://soundcloud.com/catsystemcorp
 
